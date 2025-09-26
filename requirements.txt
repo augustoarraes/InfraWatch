@@ -1,0 +1,16 @@
+streamlit 
+matplotlib 
+pandas
+plotly
+
+# internet speed
+speedtest-cli 
+
+# endpoint meter
+requests
+
+# ram e cpu
+psutil==5.9.8
+
+# traceroute
+networkx
