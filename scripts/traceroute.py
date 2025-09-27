@@ -35,7 +35,7 @@ def get_geo(ip):
 
 
 def run():
-    st.set_page_config(page_title="Traceroute Visual", layout="wide")
+    #st.set_page_config(page_title="Traceroute Visual", layout="wide")
 
     st.title("🌐 Traceroute com Visualização Geográfica")
 

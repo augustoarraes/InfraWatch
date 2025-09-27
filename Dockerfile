@@ -20,6 +20,7 @@ RUN apk update && \
       iproute2 \
       bash \
       curl \
+      bind-tools \
       gcc \
       g++ \
       musl-dev \

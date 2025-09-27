@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 
 
 def run():
-    st.set_page_config(page_title="Teste de Velocidade", layout="centered")
+    #st.set_page_config(page_title="Teste de Velocidade", layout="centered")
 
     st.title("📶 Medidor de Velocidade de Internet")
     st.write("Teste sua velocidade de **Download** e **Upload** com velocímetro.")

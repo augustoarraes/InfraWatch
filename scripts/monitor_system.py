@@ -54,9 +54,9 @@ def get_top_processes(metric="memory", top_n=5):
 
 
 def run():
-    st.set_page_config(page_title="Monitor de CPU e RAM", layout="wide")
+    #st.set_page_config(page_title="Monitor de CPU e RAM", layout="wide")
 
-    st.title("🖥️ Monitor de Recursos do Sistema")
+    st.title("🖥️ Monitor de CPU e RAM")
 
     REFRESH_INTERVAL = st.sidebar.number_input("Intervalo de atualização (segundos)", 1, 10, 2)
 

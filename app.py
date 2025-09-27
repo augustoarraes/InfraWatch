@@ -2,7 +2,7 @@ import streamlit as st
 import subprocess
 import os
 
-import monitor_system, internetspeed_gauge, endpointmeter, scan_tcp, traceroute
+from scripts import monitor_system, internetspeed_gauge, endpointmeter, scan_tcp, traceroute, system_info, ping, local_network
 
 # === CONFIGURAÇÃO DO LAYOUT ===
 st.set_page_config(page_title="Painel de Ferramentas", page_icon="🛠️", layout="wide")
@@ -11,8 +11,11 @@ st.set_page_config(page_title="Painel de Ferramentas", page_icon="🛠️", layo
 st.sidebar.title("📌 Ferramentas")
 
 scripts = {
+    "📄 Informações do Sistema": system_info,
     "🔥 Monitorar Sistema": monitor_system,
     "🌐 Testar Velocidade Internet": internetspeed_gauge,
+    "🌐 Ping": ping,
+    "🌐 Rede local": local_network,
     "📊 Endpoint REST Meter": endpointmeter,
     "📝 Scan": scan_tcp,
     "🌐 Traceroute": traceroute

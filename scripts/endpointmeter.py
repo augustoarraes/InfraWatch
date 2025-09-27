@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 
 def run():
-    st.set_page_config(page_title="Teste de Carga REST", layout="centered")
+    #st.set_page_config(page_title="Teste de Carga REST", layout="centered")
 
     st.title("🔗 Teste de Carga em Endpoint REST")
 

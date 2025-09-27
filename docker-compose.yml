@@ -3,9 +3,8 @@
 services:
   streamlit:
     build: .
-    container_name: internetspeed
-    ports:
-      - "8501:8501"
+    container_name: infrawatch
+    network_mode: "host"
     volumes:
       - .:/app
     cap_add:

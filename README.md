@@ -11,4 +11,4 @@ docker compose up -d
 Access: [http://localhost:8501](http://localhost:8501/)
 
 
-![Texto alternativo](draw.png)
+![Texto alternativo](screen.png)

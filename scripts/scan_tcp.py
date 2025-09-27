@@ -71,7 +71,7 @@ def scan_target(target, ports, timeout=1.0, max_workers=100):
 
 
 def run():
-    st.set_page_config(page_title="Network Port Scanner", page_icon="🛡️", layout="centered")
+    #st.set_page_config(page_title="Network Port Scanner", page_icon="🛡️", layout="centered")
 
     # ---- Cabeçalho e aviso ----
     st.title("🛡️ Network Port Scanner")
